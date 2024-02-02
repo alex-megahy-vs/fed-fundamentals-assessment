@@ -1,0 +1,13 @@
+:root {
+    /* Colours */
+
+
+    /* Column Values */
+    --mobile-col-width: 25%;
+    --tablet-col-width: 12.5%;
+    --desktop-col-width: 8.33%;
+    --mobile-col-gutter: 8px;
+    --desktop-col-gutter: 12px;
+    --mobile-page-margin: 16px;
+    --desktop-page-margin: 48px;
+  }
