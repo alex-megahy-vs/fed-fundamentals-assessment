@@ -1,0 +1,20 @@
+label.active {
+    border-bottom: 5px var(--header-text-active) solid;
+}
+
+.main-header {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.main-header .site-logo {
+    order: 0;
+}
+
+.main-header .main-nav {
+    order: 2;
+}
+
+.main-header .user {
+    order: 1;
+}
