@@ -26,9 +26,6 @@
     --navy-800: #040138;
     --teal-900: #029FB4;
 
-
-    /* Font */
-
     /* Column Values */
     --mobile-col-width: 25%;
     --tablet-col-width: 12.5%;
@@ -37,4 +34,5 @@
     --desktop-col-gutter: 12px;
     --mobile-page-margin: 16px;
     --desktop-page-margin: 48px;
+
 }
