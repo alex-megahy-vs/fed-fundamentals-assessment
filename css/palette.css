@@ -16,7 +16,7 @@
 
 :root {
     /* Core colours */
-    --white: #ffffff
+    --white: #ffffff;
     --grey-100: #f2f2f2;
     --grey-500: #898989;
     --grey-900: #000000;
@@ -39,4 +39,8 @@
     --header-bg: var(--white);
     --header-text-color: var(--grey-900);
     --header-text-active: var(--teal-900);
+    --header-profile-BG: var(--grey-300);
+    --header-profile-color: var(--navy-800);
+    --header-notification-BG: var(--navy-800);
+    --header-notification-color: var(--white);
 }

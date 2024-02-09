@@ -10,6 +10,8 @@ body {
 
 .container,
 .row {
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -97,40 +99,42 @@ body {
         margin: 0 var(--desktop-col-gutter);
     }    
     /* Desktop columns */
-    .d-col-1 {
+    .l-col-1 {
         width: calc(var(--desktop-col-width));    
     }
-    .d-col-2 {
+    .l-col-2 {
         width: calc(var(--desktop-col-width) * 2);    
     }
-    .d-col-3 {
+    .l-col-3 {
         width: calc(var(--desktop-col-width) * 3);    
     }
-    .d-col-4 {
+    .l-col-4 {
         width: calc(var(--desktop-col-width) * 4);    
     }
-    .d-col-5 {
+    .l-col-5 {
         width: calc(var(--desktop-col-width) * 5);    
     }
-    .d-col-6 {
+    .l-col-6 {
         width: calc(var(--desktop-col-width) * 6);    
     }
-    .d-col-7 {
+    .l-col-7 {
         width: calc(var(--desktop-col-width) * 7);    
     }
-    .d-col-8 {
+    .l-col-8 {
         width: calc(var(--desktop-col-width) * 8);    
     }
-    .d-col-9 {
+    .l-col-9 {
         width: calc(var(--desktop-col-width) * 9);    
     }
-    .d-col-10 {
+    .l-col-10 {
         width: calc(var(--desktop-col-width) * 10);    
     }
-    .d-col-11 {
+    .l-col-11 {
         width: calc(var(--desktop-col-width) * 11);    
     }
-    .d-col-12 {
+    .l-col-12 {
         width: 100%;    
     }
 }
+
+/* Spacing */
