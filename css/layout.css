@@ -1,11 +1,13 @@
-header,
-main,
-footer {
-    padding: 0 var(--mobile-page-margin);
+* {
+    box-sizing: border-box;
 }
 
 body {
     margin: 16px 0;
+}
+
+.container {
+    padding: 0 var(--mobile-page-margin);
 }
 
 .container,
@@ -13,6 +15,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
+}
+
+.container-fw {
+    max-width: 100vw;
 }
 
 .row {
@@ -90,11 +96,9 @@ body {
 
 /* Desktop breakpoint */
 @media only screen and (min-width: 768px) {
-    header,
-    main,
-    footer {
+    .container {
         padding: 0 var(--desktop-page-margin);
-    }
+    }    
     .col {
         margin: 0 var(--desktop-col-gutter);
     }    

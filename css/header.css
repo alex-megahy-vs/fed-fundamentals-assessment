@@ -14,6 +14,7 @@ a.active {
 
 .main-header .profile {
     position: relative;
+    margin-bottom: var(--desktop-col-gutter);
     margin-left: var(--desktop-col-gutter);
 }
 
@@ -32,7 +33,7 @@ a.active {
     padding: 7px 10px;
     position: absolute;
     top: -19px;
-    right: -10px;
+    right: -5px;
 }
 
 .main-header > .col {
@@ -55,6 +56,15 @@ a.active {
     width: 30px;
     height: auto;
     background-repeat: no-repeat;
+}
+
+.sub-header {
+    background-color: var(--sub-header-bg);
+}
+
+.sub-header a {
+    color: var(--sub-header-text-color);
+    padding: 0 var(--mobile-page-margin);
 }
 
 @media only screen and (max-width: 358px){
@@ -111,5 +121,11 @@ a.active {
     .main-header > .col.user,
     .main-header > .col.site-logo {
         margin-bottom: var(--desktop-col-gutter);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-header > .col.site-logo > img {
+        width: 50px;
     }
 }

@@ -43,4 +43,8 @@
     --header-profile-color: var(--navy-800);
     --header-notification-BG: var(--navy-800);
     --header-notification-color: var(--white);
+
+    /* Sub Header */
+    --sub-header-bg: var(--navy-800);
+    --sub-header-text-color: var(--white);
 }
