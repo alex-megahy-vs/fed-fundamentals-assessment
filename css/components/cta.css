@@ -1,0 +1,12 @@
+.cta {
+    background-color: var(--cta-bg);
+    color: var(--cta-color);
+    border: none;
+    border-radius: 8px;
+    padding: var(--mobile-col-gutter) var(--desktop-col-gutter) ;
+}
+
+.cta.cta-inverted {
+    background-color: var(--cta-invert-bg);
+    color: var(--cta-invert-color);
+}

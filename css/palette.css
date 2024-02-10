@@ -56,4 +56,10 @@
     /* Sub Header */
     --sub-header-bg: var(--navy-800);
     --sub-header-text-color: var(--white);
+
+    /* CTAs */
+    --cta-bg: var(--navy-800);
+    --cta-color: var(--white);
+    --cta-invert-bg: var(--white);
+    --cta-invert-color: var(--navy-800);
 }

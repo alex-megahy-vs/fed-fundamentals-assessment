@@ -1,4 +1,4 @@
-a.active {
+header a.active {
     border-bottom: var(--header-text-active-border-width) var(--header-text-active) solid;
 }
 
@@ -73,6 +73,10 @@ a.active {
     display: inline-block;
 }
 
+.main-header .user {
+    justify-content: flex-end;
+}
+
 @media only screen and (max-width: 767px) {
     .main-header .profile {
         margin-left: var(--mobile-col-gutter);
@@ -115,7 +119,6 @@ a.active {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1;
-        justify-content: flex-end;
     }
 
     .main-header > .col.user,

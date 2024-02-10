@@ -1,6 +1,20 @@
 h1,
 h2,
 h3,
+h4
+h5,
+h6,
+label,
+span,
+a,
+button {
+    color: var(--navy-800); /* Default font colour */
+}
+
+
+h1,
+h2,
+h3,
 h5,
 h6,
 label,
