@@ -47,6 +47,7 @@
     --header-bg: var(--white);
     --header-text-color: var(--grey-900);
     --header-text-active: var(--teal-900);
+    --header-text-active-border-width: 5px;
     --header-profile-BG: var(--grey-300);
     --header-profile-color: var(--navy-800);
     --header-notification-BG: var(--navy-800);

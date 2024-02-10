@@ -1,5 +1,5 @@
 a.active {
-    border-bottom: 5px var(--header-text-active) solid;
+    border-bottom: var(--header-text-active-border-width) var(--header-text-active) solid;
 }
 
 .main-header .admin-area {
@@ -39,6 +39,10 @@ a.active {
     display: flex;
 }
 
+.main-header > .col.site-logo {
+    align-items: center;
+}
+
 .main-header > .col.site-logo > img {
     border-right: 1px solid var(--header-profile-color);
     padding-right: var(--mobile-col-gutter);
@@ -53,9 +57,11 @@ a.active {
 
 .main-header > .col.site-logo .arrow {
     background-image: url(/assets/icons/chevron-down.svg);
-    width: 30px;
-    height: auto;
+    width: var(--font-size-header-5);
+    height: var(--font-size-header-5);
     background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2px;
 }
 
 .sub-header {
@@ -65,9 +71,6 @@ a.active {
 .sub-header a {
     color: var(--sub-header-text-color);
     display: inline-block;
-}
-
-@media only screen and (max-width: 1023px) {
 }
 
 @media only screen and (max-width: 767px) {
@@ -118,6 +121,13 @@ a.active {
     .main-header > .col.user,
     .main-header > .col.site-logo {
         margin-bottom: var(--desktop-col-gutter);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-header > .col.site-logo,
+    .main-header > .col.user {
+        margin-bottom: var(--header-text-active-border-width);
     }
 }
 
