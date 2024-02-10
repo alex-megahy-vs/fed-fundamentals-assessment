@@ -4,7 +4,7 @@ a.active {
 
 .main-header .admin-area {
     font-family: bold;
-    font-size: 1.25rem;
+    font-size: var(--font-size-header-5);
 }
 
 .main-header a,
@@ -14,7 +14,6 @@ a.active {
 
 .main-header .profile {
     position: relative;
-    margin-bottom: var(--desktop-col-gutter);
     margin-left: var(--desktop-col-gutter);
 }
 
@@ -42,13 +41,14 @@ a.active {
 
 .main-header > .col.site-logo > img {
     border-right: 1px solid var(--header-profile-color);
-    padding-right: var(--desktop-col-gutter);
-    margin-right: var(--desktop-col-gutter);
+    padding-right: var(--mobile-col-gutter);
+    margin-right: var(--mobile-col-gutter);
     width: auto;
 }
 
-.main-header .main-nav > a {
-    margin: var(--mobile-col-gutter);
+.main-header .main-nav > a,
+.sub-header a {
+    padding: var(--mobile-col-gutter);
 }
 
 .main-header > .col.site-logo .arrow {
@@ -64,13 +64,10 @@ a.active {
 
 .sub-header a {
     color: var(--sub-header-text-color);
-    padding: 0 var(--mobile-page-margin);
+    display: inline-block;
 }
 
-@media only screen and (max-width: 358px){
-    .main-header > .col.site-logo > img {
-        width: 30px;
-    }
+@media only screen and (max-width: 1023px) {
 }
 
 @media only screen and (max-width: 767px) {
@@ -124,7 +121,7 @@ a.active {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
     .main-header > .col.site-logo > img {
         width: 50px;
     }

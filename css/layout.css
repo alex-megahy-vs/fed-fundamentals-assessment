@@ -41,6 +41,7 @@ body {
 
 .col {
     margin: 0 var(--mobile-col-gutter);
+    width: 100%;
 }
 
 .row > .col:first-of-type,

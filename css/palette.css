@@ -35,6 +35,14 @@
     --mobile-page-margin: 16px;
     --desktop-page-margin: 48px;
 
+    /* Font sizes */
+    --font-size-header-1: 2.25rem;
+    --font-size-header-2: 1.875rem;
+    --font-size-header-3: 1.5rem;
+    --font-size-header-4: 1.25rem;
+    --font-size-header-5: 1.125rem;
+    --font-size-normal: 1rem;
+
     /* Header */
     --header-bg: var(--white);
     --header-text-color: var(--grey-900);
