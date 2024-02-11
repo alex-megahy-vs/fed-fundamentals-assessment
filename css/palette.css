@@ -26,7 +26,8 @@
     --navy-800: #040138;
     --teal-900: #029FB4;
 
-    --body-bg: var(--grey-100);
+    /* --body-bg: var(--grey-100); */
+    --body-bg: var(--blue-500);
     --content-bg: var(--white);
 
     /* Column Values */
@@ -66,4 +67,10 @@
     --cta-invert-bg: var(--white);
     --cta-invert-color: var(--grey-900);
     --cta-invert-border-color: var(--grey-500);
+
+    /* Table */
+    --table-link-color: var(--blue-500);
+    --table-bg: var(--white);
+    --table-highlight-bg: var(--grey-100);
+    --table-row-border: 1px solid var(--grey-500);
 }

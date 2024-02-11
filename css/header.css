@@ -1,9 +1,11 @@
 body {
     background-color: var(--body-bg);
+    margin: 0;
 }
 
 header {
     background-color: var(--header-bg);
+    padding-top: var(--desktop-col-gutter);
 }
 
 header a.active {

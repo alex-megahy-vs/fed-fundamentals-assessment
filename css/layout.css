@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 16px 0;
-}
-
 .container,
 .container-fw > .row {
     padding: 0 var(--mobile-page-margin);
