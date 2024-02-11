@@ -72,5 +72,5 @@
     --table-link-color: var(--blue-500);
     --table-bg: var(--white);
     --table-highlight-bg: var(--grey-100);
-    --table-row-border: 1px solid var(--grey-500);
+    --table-border: 1px solid var(--grey-500);
 }
