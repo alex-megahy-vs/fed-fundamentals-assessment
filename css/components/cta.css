@@ -1,12 +1,15 @@
 .cta {
     background-color: var(--cta-bg);
+    border: 1px solid var(--cta-bg);
     color: var(--cta-color);
+    cursor: pointer;
     border: none;
     border-radius: 8px;
     padding: var(--mobile-col-gutter) var(--desktop-col-gutter) ;
 }
 
-.cta.cta-inverted {
+.cta.cta-invert {
     background-color: var(--cta-invert-bg);
+    border: 1px solid var(--cta-invert-border-color);
     color: var(--cta-invert-color);
 }

@@ -38,6 +38,10 @@
     margin-right: var(--mobile-col-gutter);
 }
 
+.results-table {
+    background-color: var(--content-bg);
+}
+
 @media only screen and (max-width: 358px) {
     .inventory-table .page-header {
         flex-direction: column;

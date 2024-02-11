@@ -21,7 +21,8 @@ h5,
 h6,
 label,
 span,
-a  {
+a,
+button  {
     font-family: medium;
 }
 

@@ -26,6 +26,9 @@
     --navy-800: #040138;
     --teal-900: #029FB4;
 
+    --body-bg: var(--grey-100);
+    --content-bg: var(--white);
+
     /* Column Values */
     --mobile-col-width: 25%;
     --tablet-col-width: 12.5%;
@@ -61,5 +64,6 @@
     --cta-bg: var(--navy-800);
     --cta-color: var(--white);
     --cta-invert-bg: var(--white);
-    --cta-invert-color: var(--navy-800);
+    --cta-invert-color: var(--grey-900);
+    --cta-invert-border-color: var(--grey-500);
 }

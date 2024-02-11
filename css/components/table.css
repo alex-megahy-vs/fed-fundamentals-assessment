@@ -1,0 +1,28 @@
+.table-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-table {
+    border-radius: 10px;
+    padding: var(--mobile-col-gutter);
+    margin: var(--mobile-page-margin) 0;
+}
+
+.filter::before {
+    background-image: url(/assets/icons/filter.svg);
+    width: var(--font-size-normal);
+    height: var(--font-size-normal);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .results-table {
+        padding: var(--desktop-col-gutter);
+        margin: var(--desktop-page-margin) 0;
+    }
+}

@@ -2,6 +2,7 @@
 
 /* Components */
 @import url(../components/cta.css); 
+@import url(../components/table.css); 
 
 /* Page overrides */
 @import url(../pages/index.css); 

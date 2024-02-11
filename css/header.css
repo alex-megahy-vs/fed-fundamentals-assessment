@@ -1,3 +1,11 @@
+body {
+    background-color: var(--body-bg);
+}
+
+header {
+    background-color: var(--header-bg);
+}
+
 header a.active {
     border-bottom: var(--header-text-active-border-width) var(--header-text-active) solid;
 }
