@@ -26,8 +26,7 @@
     --navy-800: #040138;
     --teal-900: #029FB4;
 
-    /* --body-bg: var(--grey-100); */
-    --body-bg: var(--blue-500);
+    --body-bg: var(--grey-100);
     --content-bg: var(--white);
 
     /* Column Values */
