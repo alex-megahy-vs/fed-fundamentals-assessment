@@ -56,6 +56,11 @@
     --header-notification-BG: var(--navy-800);
     --header-notification-color: var(--white);
 
+    /* Footer */
+    --footer-bg: var(--white);
+    --footer-link-color: var(--grey-600);
+    --footer-copyright-color: var(--grey-900);
+
     /* Sub Header */
     --sub-header-bg: var(--navy-800);
     --sub-header-text-color: var(--white);

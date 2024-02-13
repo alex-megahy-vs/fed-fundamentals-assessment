@@ -37,7 +37,8 @@ h4 {
 
 p,
 td,
-input {
+input,
+li {
     font-family: regular;
 }
 
@@ -77,7 +78,8 @@ h6 {
 label,
 p,
 a, 
-button {
+button,
+span {
     font-size: var(--font-size-normal);
 }
 
