@@ -13,3 +13,10 @@
     border: 1px solid var(--cta-invert-border-color);
     color: var(--cta-invert-color);
 }
+
+.cta:disabled {
+    background-color: var(--cta-disabled-bg);
+    border: 1px solid var(--cta-disabled-border-color);
+    color: var(--cta-disabled-color);
+    cursor: default;
+}

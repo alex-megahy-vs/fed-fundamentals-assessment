@@ -12,7 +12,9 @@ h4
 h5,
 h6,
 th,
-td {
+td,
+p,
+input {
     color: var(--grey-900); /* Default header colour */
 }
 
@@ -34,7 +36,8 @@ h4 {
 }
 
 p,
-td {
+td,
+input {
     font-family: regular;
 }
 

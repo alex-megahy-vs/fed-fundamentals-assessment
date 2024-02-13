@@ -39,10 +39,48 @@ thead th {
     text-align: left;
 }
 
-td > img {
+td > img,
+.results-table #page-number {
     border: var(--table-border);
     height: 50px;
     width: 50px;
+}
+
+.results-table #page-number {
+    border-radius: 8px;
+}
+
+.table-actions {
+    justify-content: end;
+    padding: var(--desktop-col-gutter);
+}
+
+.table-actions > .col {
+    text-align: right;
+    width: auto;
+}
+
+.table-actions input[type=number] {
+    text-align: center;
+}
+
+.table-actions input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 424px) {
+    .table-actions {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .table-actions > .col {
+        order: 1;
+    }
+    .table-actions > #pagination {
+        text-align: center;
+        order: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 767px) {

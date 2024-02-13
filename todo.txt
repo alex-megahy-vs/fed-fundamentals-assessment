@@ -2,3 +2,4 @@ Prefix
 alts to imgs and links
 condense
 remove lines
+check all s-col and m-cols and d-cols are correct format. So no col-s

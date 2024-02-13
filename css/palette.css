@@ -67,6 +67,9 @@
     --cta-invert-bg: var(--white);
     --cta-invert-color: var(--grey-900);
     --cta-invert-border-color: var(--grey-500);
+    --cta-disabled-bg: var(--grey-100);
+    --cta-disabled-color: var(--grey-500);
+    --cta-disabled-border-color: var(--grey-500);
 
     /* Table */
     --table-link-color: var(--blue-500);
