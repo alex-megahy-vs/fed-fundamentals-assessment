@@ -142,6 +142,9 @@ header a.active {
     .main-header > .col.user {
         margin-bottom: var(--header-text-active-border-width);
     }
+    .main-header > .col.site-logo {
+        max-width: 200px; /* Keep menu links close to logo */
+    }
 }
 
 @media only screen and (max-width: 1023px) {
