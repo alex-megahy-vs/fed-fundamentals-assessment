@@ -26,6 +26,10 @@ table {
     display: inline-block;
 }
 
+.table-actions #pagination > span {
+    font-family: regular;
+}
+
 td > a {
     color: var(--table-link-color);
 }
