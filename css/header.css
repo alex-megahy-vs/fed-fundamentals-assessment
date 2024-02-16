@@ -93,8 +93,9 @@ header a.active {
     }
 
     .main-header .profile > .notification {
-        top: -15px;
-        right: -15px;
+        top: -11px;
+        right: -8px;
+        padding: 5px 8px;
     }
     
     .main-header .profile > a {
