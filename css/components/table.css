@@ -89,6 +89,7 @@ td > img,
     }
     table tbody tr {
         margin: var(--desktop-page-margin) 0;
+        border-top: var(--table-border);
         display: block;
     }
     table tbody td {
