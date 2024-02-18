@@ -11,18 +11,18 @@
     <header>
         <div class="container">
             <div class="row main-header">
-               <div class="col s-col-3 m-col-6 l-col-3 site-logo">
+               <div class="d-flex col s-col-3 m-col-6 l-col-2 site-logo">
                     <img src="assets/icons/vs-logo-beta.svg" alt="VS beta logo"/>
                     <a href="#" class="admin-area">Inventory</a>
                     <i class="arrow"></i>
                </div>
-                <div class="col s-col-4 m-col-8 l-col-7 main-nav">
+                <div class="d-flex col s-col-4 m-col-8 l-col-7 main-nav">
                     <a href="#" class="active">Product</a>
                     <a href="#">Reviews</a>
                     <a href="#">Requests</a>
                     <a href="#">Appointments</a>
                </div>
-               <div class="col s-col-1 m-col-2 l-col-2 user">
+               <div class="d-flex col s-col-1 m-col-2 l-col-3 user">
                     <span>Volkswagen</span>
                     <span class="profile">
                       <a href="#">KS</a>
@@ -55,14 +55,16 @@
       <div class="container results-table">
         <div class="row table-options">
           <button class="cta cta-invert filter">Filters</button>
-          <span>1-30 of 30,531</span>
+          <span>
+            <b>1-30</b> of <b>30,531</b>
+          </span>
         </div>
         <div class="row">
           <table>
             <thead>
               <th>Image</th>
               <th>Title</th>
-              <th>Product ID</th>
+              <th id="product-id">Product ID</th>
               <th>Category</th>
               <th>Rating</th>
               <th>Price</th>
@@ -728,17 +730,12 @@
                 </td>
               </tr>
             </tbody>
-
           </table>
         </div>
         <div class="row table-actions">
           <div class="col s-col-2">
-            <button class="cta cta-invert" disabled>
-              |<
-            </button>
-            <button class="cta cta-invert" disabled>
-              <
-            </button>
+            <button class="cta cta-invert" id="control-back" disabled></button>
+            <button class="cta cta-invert" id="control-skip-back" disabled></button>
           </div>
           <div class="col s-col-4" id="pagination">
             <span>Page</span>
@@ -746,12 +743,8 @@
             <span>of 1017</span>
           </div>
           <div class="col s-col-2">
-            <button class="cta cta-invert">
-              >
-            </button>
-            <button class="cta cta-invert">
-              >|
-            </button>
+            <button class="cta cta-invert" id="control-forward"></button>
+            <button class="cta cta-invert" id="control-skip-forward"></button>
           </div>
         </div>
       </div>
@@ -760,18 +753,36 @@
       <div class="container">
         <div class="row">
           <div class="col s-col-2 m-col-4 l-col-1">
-            <img src="./assets/icons/dark-logo.svg" class="footer-logo"/>
+            <img src="./assets/icons/dark-logo.svg" class="footer-logo" alt="footer logo"/>
           </div>
-          <div class="col s-col-4 m-col-8 l-col-8 footer-links">
-            <li class="footer-link">Terms & conditions</li>
-            <li class="footer-link">Help</li>
-            <li class="footer-link">FAQ</li>
-            <li class="footer-link">Privacy</li>
-            <li class="footer-link">Cookies</li>
-            <li class="footer-link">Knowledge</li>
-            <li class="footer-link">Feature hub</li>
-            <li class="footer-link">Documents</li>
-            <li class="footer-link">Templates</li>
+          <div class="d-flex col s-col-4 m-col-8 l-col-8 footer-links">
+            <li class="footer-link">
+              <a href="#">Terms & conditions</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Help</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Privacy</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Cookies</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Knowledge</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Feature hub</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Documents</a>
+            </li>
+            <li class="footer-link">
+              <a href="#">Templates</a>
+            </li>
           </div>
           <div class="col s-col-2 m-col-4 l-col-3">
             <span class="copyright">Ⓒ Visualsoft 2021</span>

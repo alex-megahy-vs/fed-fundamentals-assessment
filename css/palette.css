@@ -33,10 +33,10 @@
     --mobile-col-width: 25%;
     --tablet-col-width: 12.5%;
     --desktop-col-width: 8.33%;
-    --mobile-col-gutter: 8px;
-    --desktop-col-gutter: 12px;
-    --mobile-page-margin: 16px;
-    --desktop-page-margin: 48px;
+    --mobile-col-gutter: 0.5rem;
+    --desktop-col-gutter: 0.75rem;
+    --mobile-page-margin: 1rem;
+    --desktop-page-margin: 3rem;
 
     /* Font sizes */
     --font-size-header-1: 2.25rem;
@@ -50,7 +50,7 @@
     --header-bg: var(--white);
     --header-text-color: var(--grey-900);
     --header-text-active: var(--teal-900);
-    --header-text-active-border-width: 5px;
+    --header-text-active-border-width: 0.313rem;
     --header-profile-BG: var(--grey-300);
     --header-profile-color: var(--navy-800);
     --header-notification-BG: var(--navy-800);
@@ -68,16 +68,17 @@
     /* CTAs */
     --cta-bg: var(--navy-800);
     --cta-color: var(--white);
+    --cta-border: 0.063rem solid var(--cta-color);
     --cta-invert-bg: var(--white);
     --cta-invert-color: var(--grey-900);
-    --cta-invert-border-color: var(--grey-500);
+    --cta-invert-border: 0.063rem solid var(--cta-invert-color);
     --cta-disabled-bg: var(--grey-100);
     --cta-disabled-color: var(--grey-500);
-    --cta-disabled-border-color: var(--grey-500);
+    --cta-disabled-border: 0.063rem solid var(--cta-disabled-color);
 
     /* Table */
     --table-link-color: var(--blue-500);
     --table-bg: var(--white);
     --table-highlight-bg: var(--grey-100);
-    --table-border: 1px solid var(--grey-500);
+    --table-border: 0.063rem solid var(--grey-500);
 }

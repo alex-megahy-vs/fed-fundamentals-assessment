@@ -1,22 +1,21 @@
 .cta {
     background-color: var(--cta-bg);
-    border: 1px solid var(--cta-bg);
+    border: var(--cta-border);
     color: var(--cta-color);
     cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    padding: var(--mobile-col-gutter) var(--desktop-col-gutter) ;
+    border-radius: 0.5rem;
+    padding: var(--mobile-col-gutter) var(--desktop-col-gutter);
 }
 
 .cta.cta-invert {
     background-color: var(--cta-invert-bg);
-    border: 1px solid var(--cta-invert-border-color);
+    border: var(--cta-invert-border);
     color: var(--cta-invert-color);
 }
 
 .cta:disabled {
     background-color: var(--cta-disabled-bg);
-    border: 1px solid var(--cta-disabled-border-color);
+    border: var(--cta-disabled-border);
     color: var(--cta-disabled-color);
     cursor: default;
 }

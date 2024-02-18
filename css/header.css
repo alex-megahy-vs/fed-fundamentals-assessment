@@ -29,33 +29,25 @@ header a.active {
 
 .main-header .profile > a {
     background-color: var(--header-profile-BG);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: var(--header-profile-color);
     padding: var(--desktop-col-gutter);
 }
 
 .main-header .profile > .notification {
     background-color: var(--header-notification-BG);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     color: var(--header-notification-color);
     font-size: 0.625rem;
-    padding: 7px 10px;
-    line-height: 12px;
+    padding: 0.438rem 0.625rem;
+    line-height: 0.75rem;
     position: absolute;
-    top: -19px;
-    right: -5px;
-}
-
-.main-header > .col {
-    display: flex;
-}
-
-.main-header > .col.site-logo {
-    align-items: center;
+    top: -1.188rem;
+    right: -0.313rem;
 }
 
 .main-header > .col.site-logo > img {
-    border-right: 1px solid var(--header-profile-color);
+    border-right: 0.063rem solid var(--header-profile-color);
     padding-right: var(--mobile-col-gutter);
     margin-right: var(--mobile-col-gutter);
     width: auto;
@@ -72,7 +64,7 @@ header a.active {
     height: var(--font-size-header-5);
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 2px;
+    margin-left: 0.125rem;
 }
 
 .sub-header {
@@ -85,6 +77,8 @@ header a.active {
 }
 
 .main-header .user {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
@@ -92,11 +86,15 @@ header a.active {
     .main-header .profile {
         margin-left: var(--mobile-col-gutter);
     }
+    
+    .main-header .main-nav > a {
+        width: 100%;
+    }
 
     .main-header .profile > .notification {
-        top: -11px;
-        right: -8px;
-        padding: 5px 8px;
+        top: -0.688rem;
+        right: -0.5rem;
+        padding: 0.313rem 0.5rem;
     }
     
     .main-header .profile > a {
@@ -124,6 +122,8 @@ header a.active {
         -ms-flex-order: 2;
         order: 2; 
         -ms-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
     }
 
@@ -145,12 +145,12 @@ header a.active {
         margin-bottom: var(--header-text-active-border-width);
     }
     .main-header > .col.site-logo {
-        max-width: 200px; /* Keep menu links close to logo */
+        width: 12.5rem; /* Keep menu links close to logo */
     }
 }
 
 @media only screen and (max-width: 1023px) {
     .main-header > .col.site-logo > img {
-        width: 50px;
+        width: 3.125rem;
     }
 }
