@@ -1,0 +1,21 @@
+.cta {
+    background-color: var(--cta-bg);
+    border: var(--cta-border);
+    color: var(--cta-color);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: var(--mobile-col-gutter) var(--desktop-col-gutter);
+}
+
+.cta.cta-invert {
+    background-color: var(--cta-invert-bg);
+    border: var(--cta-invert-border);
+    color: var(--cta-invert-color);
+}
+
+.cta:disabled {
+    background-color: var(--cta-disabled-bg);
+    border: var(--cta-disabled-border);
+    color: var(--cta-disabled-color);
+    cursor: default;
+}

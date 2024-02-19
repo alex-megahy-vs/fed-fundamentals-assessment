@@ -1,0 +1,93 @@
+label,
+span,
+a,
+button {
+    color: var(--navy-800); /* Default font colour */
+}
+
+h1,
+h2,
+h3,
+h4
+h5,
+h6,
+th,
+td,
+p,
+input {
+    color: var(--grey-900); /* Default header colour */
+}
+
+h1,
+h2,
+h3,
+h5,
+h6,
+label,
+span,
+a,
+button,
+th  {
+    font-family: medium;
+}
+
+h4 {
+    font-family: bold;
+}
+
+p,
+td,
+input,
+li {
+    font-family: regular;
+}
+
+h1 {
+    font-size: var(--font-size-header-1);
+    line-height: 2.5rem;
+}
+
+h2 {
+    font-size: var(--font-size-header-2);
+    line-height: 2.25rem;
+}
+
+h3 {
+    font-size: var(--font-size-header-3);
+    line-height: 1.75rem;
+}
+
+h4,
+h5,
+h6,
+label,
+p,
+a,
+span {
+    line-height: 1.5rem;
+}
+
+h4,
+h5 {
+    font-size: var(--font-size-header-4);
+}
+
+h6 {
+    font-size: var(--font-size-header-5);
+}
+
+label,
+p,
+a, 
+button,
+span {
+    font-size: var(--font-size-normal);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
